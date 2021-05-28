@@ -4,6 +4,6 @@ module.exports = {
   },
   // Just for public keys
   env: {
-    stripe_public_key: process.env.STRIPE_PUBLIC_KEY,
+    stripe_public_key: process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY,
   },
 };
